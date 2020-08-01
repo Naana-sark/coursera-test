@@ -1,0 +1,76 @@
+body {
+    font-size: 16px;
+    color: #000000;
+    background-color: #0FFFFF;
+    font-family: 'Oxygen', sans-serif;
+  }
+
+/** HEADER **/
+#header-nav {
+    background-color: #0F00FF;
+    border-radius: 0;
+    border: 0;
+    min-height: 70px;
+  }
+
+/**Adding some padding*/
+.navbar-brand {
+    padding-top: 25px;
+  }
+
+.navbar-brand h1 { /* Food, LLC*/
+    font-family: 'Lora', serif;
+    color: white;
+    font-size: 2em;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.5;
+    text-align: left;
+}
+
+.navbar-brand span{
+    margin-left: 30px;
+    vertical-align: middle;
+    font-size:2em;
+    color: whitesmoke;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+#nav-list a:hover {
+    background: black;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid rgb(17,68,84);
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+/* END HEADER */
+
+/* Main Page */
+#page-title{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.text-background {
+    height: 3000px;
+    padding: 20px 40px 20px 40px;
+    background-color:rgb(242,242,242);
+    overflow: hidden;
+    color: rgb(17,68,84);
+}
+h3 {
+    font-weight: bold;
+}

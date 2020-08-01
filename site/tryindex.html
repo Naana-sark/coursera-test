@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+		<title>Our Menu</title>
+		<link rel="stylesheet" href="style.css">
+		<style >
+			* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#p1 {
+  background-color: #aaa;
+  width: .column width;
+  height: .column height; 
+}
+#p2 {
+  
+  width: .column2 width;
+  height: .column2 height;
+}
+#p3 {
+
+  width: .column3 width;
+  height: .column3 height;
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .column1, .column2, .column3 {
+    float: left;
+    border: 1px solid black;
+    background-color: #aaa;
+  }
+  .column1 {
+    width: 33.33%;
+  }
+  .column2 {
+    width: 33.33%;
+  }
+  .column3 {
+    width: 33.33%;
+  }
+   #p1 {
+    width: .column1 width;
+  }
+  #p2 {
+    width: .column2 width;
+  }
+
+  
+  #p3 {
+    width: .column3 width;
+
+  }
+
+
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .column1, .column2, .column3 {
+    float: left;
+    border: 1px solid black;
+    background-color: #aaa;
+  }
+  .column1 {
+    width: 50%;
+  }
+  .column2 {
+    width: 50%;
+  }
+  .column3 {
+    width: 100%;
+  }
+   #p1 {
+    width: .column1 width;
+  }
+  #p2 {
+    width: .column2 width;
+    
+  }
+
+  
+  #p3 {
+    width: .column3 width;
+
+  }
+}
+
+			
+		</style>
+			</head>
+<body>
+	<h1 style="color: black; font-size: 40px; text-align:center;" >Our Menu</h1>
+	<div class="row">
+		<div class="column1" style="background-color:#aaa;">
+			<h2>Chicken</h2>
+			<p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex et similique cupiditate dignissimos delectus nulla dolore, eos dolorum quidem excepturi, facere non repellat accusamus, atque? Id voluptate eos et accusantium.</p>
+  		</div>
+  		<div class="column2" style="background-color:#bbb;">
+  			<h2 >Beef</h2>
+			<p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex et similique cupiditate dignissimos delectus nulla dolore, eos dolorum quidem excepturi, facere non repellat accusamus, atque? Id voluptate eos et accusantium.</p>
+  		</div>
+  		<div class="column3" style="background-color:#ccc;">
+  			<h2>Sushi</h2>
+    		<p id="p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex et similique cupiditate dignissimos delectus nulla dolore, eos dolorum quidem excepturi, facere non repellat accusamus, atque? Id voluptate eos et accusantium.</p>
+    		  </div>
+	</div>
+
+</body>
+	
+	
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Our Menu</title>
+		<link rel="stylesheet" href="style.css">
+		<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+
+
+p {
+  border: 1px solid black;
+  background-color: #A52A2A;
+  width: 100%;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+}
+
+/* Simple Responsive Framework. */
+
+.column {
+  float: left;
+  width: 33.3%;
+  padding:15px;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .column {
+  width: 100%;
+}
+
+@media (min-width: 767px) { 
+  .column {
+  width: 100%;
+}
+
+
+		</style>
+	</head>
+<body>
+	<h1 style="color: black; font-size: 40px; text-align:center;">Our Menu</h1>
+	<div class="row">
+    <div class ="column" style="background-color:#aaa;">
+      <h2>Chicken</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex et similique cupiditate dignissimos delectus nulla dolore, eos dolorum quidem excepturi, facere non repellat accusamus, atque? Id voluptate eos et accusantium.</p></div>
+      <div class="column" style="background-color:#00ff00;">
+        <h2 style= " font-size: 20px; text-align: top right; color: red;">Beef</h2>
+        <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex et similique cupiditate dignissimos delectus nulla dolore, eos dolorum quidem excepturi, facere non repellat accusamus, atque? Id voluptate eos et accusantium.</p></div>
+        <div class="column" style="background-color:#00ffff;">
+          <h2>Sushi</h2>
+          <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex et similique cupiditate dignissimos delectus nulla dolore, eos dolorum quidem excepturi, facere non repellat accusamus, atque? Id voluptate eos et accusantium.</p></div>
+</div>
+</body>
+</html>
